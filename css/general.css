@@ -1,0 +1,109 @@
+/*
+----- 01 TYPOGRAPHY SYSTEM -----
+
+- FONT SIZES (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- FONT WEIGHTS
+  Default: 400
+  Medium: 500
+  Semi-bold600
+  Bold: 700
+
+- LINE HEIGHTS
+
+- LETTER SPACING
+
+- FONT SIZES (px)
+
+----- 02 COLORS -----
+
+----- 05 SHADOWS -----
+
+----- 06 BORDER RADIUS -----
+
+----- 07 WHITE SPACE -----
+
+- SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  line-hight: 1;
+  font-weight: 400;
+  color:#555;
+  background-color: #f4f4f4;
+}
+
+.container {
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: 1px;
+  margin-bottom: 1.6rem;
+  color: #350035;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: rgb(53, 0, 53);
+}
+
+.center {
+  text-align: center;
+}
+
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  border-left: 5px solid #350035;
+}
+
+/************************/
+/**BELOW 84*16 = 1344px (smaller desktops)**/
+/************************/
+@media (max-width: 84em) {
+
+  }
+  }
+}
+
+@media (max-width: 620px) {
+  /* For a screen < 720px, this CSS will be read */
+
+  }
+}
+
+@media (max-width: 440px) {
+  /* For a screen < 540px, this CSS will be read */
+
+  }
+}

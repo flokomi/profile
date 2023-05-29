@@ -1,0 +1,75 @@
+.hero {
+  margin-bottom: 6.4rem;
+  height: 40vh;
+}
+
+.gradient-background {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 40s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.bio {
+  margin-bottom: 6.4rem;
+}
+
+.profile-picture {
+  margin: 16px auto;
+  height: 350px;
+  border-radius: 5%;
+}
+
+.profile-text {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  width: 50%;
+}
+
+.game-field {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 7px;
+  width: 254px;
+}
+
+.game-item {
+  width: 80px;
+  height: 80px;
+  color: #fff;
+  background-color: blueviolet;
+  font-size: 7.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  /* padding-left: 0px; */
+}
+
+.social-links {
+  display: inline;
+  margin: 5px;
+}
+
+.social-links-icon {
+  font-size: 1.5em;
+}
+
+.social-links > a {
+  text-decoration: none;
+}

@@ -1,46 +1,84 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Florian Miller Github</title>
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.1.2/css/all.css"
+    />
 
-<head>
-  <title>Florian Miller Github</title>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
-<body>
-  <div class="container">
-
-    <div class="card">
-      <h1>Hello, I am Florian</h1>
-      <span>
-        <i class="fa-solid fa-code"></i>
-        <h2>Programmer</h2>
-        <br>
-      </span>
-
-      <img src="./images/profile_picture.jpg" alt="Florian's profilt picture" id="profile-picture" class="img-circle">
+  <body>
+    <!---------------->
+    <!--SECTION HERO-->
+    <!---------------->
+    <div class="hero gradient-background">
+      <div class="container flex-center">
+        <h1 class="heading-primary center">Hello👏, I am Florian</h1>
+        <h2 class="heading-secondary center">
+          <i class="fa-solid fa-code"></i> Programmer
+        </h2>
+        <!-- <img src="./images/Klecks.png" alt="" /> -->
+      </div>
     </div>
 
-    <div class="card">
-      <p class="profile-text">After studying cultural and theater studies at the University of Leipzig, I worked in the
-        film industry in Berlin and became a production manager for higher budgeted documentaries, also with fictional
-        parts (Terra X) and other film formats (e.g. image and art films). Today I am rethinking my career and following
-        my passion of programming with LeWagon Bootcamp.</p>
+    <!---------------->
+    <!--SECTION BIO--->
+    <!---------------->
+    <div class="bio">
+      <div class="container flex-left">
+        <img
+          src="./images/titel_kleiner_weiß.jpg"
+          alt="Florian's profilt picture"
+          class="profile-picture"
+        />
+        <p class="profile-text">
+          After studying cultural and theater sciences at the University of
+          Leipzig, I worked in the Berlin film industry and became a production
+          manager. 2023 I am rethinking my career and follow my passion of
+          programming. End of March I graduated as
+          <strong>Full Stack Web Developer</strong> from the Le Wagon Bootcamp.
+          Today I am strengthen my skills continously with coding challenges,
+          online courses and own projects.
+        </p>
+      </div>
     </div>
 
-    <!--
-      <div class="card">
-      <h2>Passions</h2>
-      <button type="button">Click Me!</button>
+    <!--------------------->
+    <!--SECTION PROJECTS--->
+    <!--------------------->
+    <div class="projects">
+      <div class="container">
+        <h2 class="heading-secondary">My Projects...</h2>
+
+        <div class="game-field">
+          <div id="1" class="game-item">1</div>
+          <div id="2" class="game-item">2</div>
+          <div id="3" class="game-item">3</div>
+          <div id="4" class="game-item">4</div>
+          <div id="5" class="game-item">5</div>
+          <div id="6" class="game-item">6</div>
+          <div id="7" class="game-item">7</div>
+          <div id="8" class="game-item">8</div>
+          <div id="9" class="game-item empty"></div>
+        </div>
+
+        <img src="" alt="" />
+      </div>
     </div>
-    -->
 
     <div class="card">
       <h2>Social Links</h2>
@@ -64,7 +102,10 @@
         </ul>
       </div>
     </div>
-  </div>
-</body>
-
+    <script
+      language="javascript"
+      type="text/javascript"
+      src="./index.js"
+    ></script>
+  </body>
 </html>
