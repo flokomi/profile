@@ -40,7 +40,7 @@ html {
 
 body {
   font-family: "Inter", sans-serif;
-  line-hight: 1;
+  line-height: 1;
   font-weight: 400;
   color:#555;
   background-color: #f4f4f4;
@@ -52,7 +52,34 @@ body {
   margin: 0 auto;
 }
 
+.grid {
+  display: grid;
+  row-gap: 9.6rem;
+  column-gap: 6.4rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid--center-v {
+  align-items: center;
+}
+
 .heading-primary {
+  display: block;
   font-size: 5.2rem;
   font-weight: 700;
   line-height: 1.05;
@@ -62,10 +89,31 @@ body {
 }
 
 .heading-secondary {
+  display: block;
   font-size: 4.4rem;
   font-weight: 500;
   line-height: 1.2;
-  color: rgb(53, 0, 53);
+  color: #350035;
+
+}
+
+.heading-tertiary {
+  font-size: 3rem;
+  line-height: 1.2;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #350035;
+  margin-bottom: 3.2rem;
+}
+
+.subheading {
+  /* display: block; */
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #350035;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
 }
 
 .center {
@@ -74,9 +122,12 @@ body {
 
 .flex-center {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.flex-col {
+flex-direction: column;
 }
 
 .flex-left {

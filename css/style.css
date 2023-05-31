@@ -1,11 +1,10 @@
 .hero {
   margin-bottom: 6.4rem;
-  height: 40vh;
 }
 
 .gradient-background {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  background-size: 400% 400%;
+  background-size: 200% 200%;
   animation: gradient 40s ease infinite;
 }
 
@@ -21,8 +20,12 @@
   }
 }
 
+.profile-title {
+  padding: 12.8rem 0 12.8rem 0;
+}
+
 .bio {
-  margin-bottom: 6.4rem;
+  margin-bottom: 9.6rem;
 }
 
 .profile-picture {
@@ -37,12 +40,24 @@
   width: 50%;
 }
 
-.game-field {
+.projects {
+  margin-bottom: 9.6rem;
+}
+
+.project-description {
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+
+.project-preview-box {
+}
+
+.game-field-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
   gap: 3px;
-  width: 254px;
+  width: 329px;
 }
 
 .game-item {
@@ -51,13 +66,11 @@
   color: #fff;
   background-color: inherit;
   font-size: 6.2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .game-item > img {
   height: 80px;
+  width: 80px;
 }
 
 ul {
