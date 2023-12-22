@@ -130,6 +130,10 @@ body {
 flex-direction: column;
 }
 
+.screenshot{
+  width: 500px;
+}
+
 
 
 /************************/
