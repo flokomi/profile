@@ -26,6 +26,12 @@
 
 .bio {
   margin-bottom: 9.6rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  border-left: 5px solid #350035;
 }
 
 .profile-picture {
@@ -47,9 +53,6 @@
 .project-description {
   font-size: 1.8rem;
   line-height: 1.6;
-}
-
-.project-preview-box {
 }
 
 .game-field-grid {

@@ -74,7 +74,7 @@ body {
   grid-template-columns: repeat(5, 1fr);
 }
 
-.grid--center-v {
+.grid--center {
   align-items: center;
 }
 
@@ -130,13 +130,7 @@ body {
 flex-direction: column;
 }
 
-.flex-left {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 50px;
-  border-left: 5px solid #350035;
-}
+
 
 /************************/
 /**BELOW 84*16 = 1344px (smaller desktops)**/

@@ -1,4 +1,5 @@
 gameItems = document.querySelectorAll(".game-item");
+// console.log(gameItems);
 
 gameItems.forEach((element) => {
   element.addEventListener("click", () => {
@@ -10,6 +11,7 @@ gameItems.forEach((element) => {
       checkBottom(element)
     ) {
       elementImage = element.querySelector(".game-field-img");
+      // console.log(elementImage);
       moveItem(element, elementImage);
     }
   });
