@@ -54,7 +54,7 @@ body {
 
 .grid {
   display: grid;
-  row-gap: 9.6rem;
+  row-gap: 12.8rem;
   column-gap: 6.4rem;
 }
 
@@ -74,8 +74,12 @@ body {
   grid-template-columns: repeat(5, 1fr);
 }
 
-.grid--center {
+.grid--x--center {
   align-items: center;
+}
+
+.grid--y--right {
+  justify-self: end;
 }
 
 .heading-primary {
