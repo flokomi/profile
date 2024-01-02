@@ -24,6 +24,10 @@
   padding: 12.8rem 0 12.8rem 0;
 }
 
+.projects > .container {
+  margin-bottom: 6.2rem;
+}
+
 .bio {
   margin-bottom: 9.6rem;
 

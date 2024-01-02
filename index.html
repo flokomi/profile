@@ -19,6 +19,7 @@
 
     <link rel="stylesheet" href="./css/general.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/mediaQuery.css" />
   </head>
 
   <body>
@@ -27,8 +28,10 @@
     <!---------------->
     <div class="hero gradient-background">
       <div class="profile-title">
-        <h1 class="heading-primary center">Hello👏, I am Florian</h1>
-        <h2 class="heading-secondary center">
+        <h1 class="heading-primary center title-color">
+          Hello👏, I am Florian
+        </h1>
+        <h2 class="heading-secondary center title-color">
           <i class="fa-solid fa-code"></i> Programmer
         </h2>
         <!-- <img src="./images/Klecks.png" alt="" /> -->
@@ -38,7 +41,7 @@
     <!---------------->
     <!--SECTION BIO--->
     <!---------------->
-    <div class="container bio">
+    <div class="container bio theme-a-adaptive">
       <img
         src="./images/titel_kleiner_weiß.jpg"
         alt="Florian's profilt picture"
@@ -303,11 +306,15 @@
           </li>
         </ul>
       </div>
+
+      <div>
+        <button onclick="darkMode()">Darkmode</button>
+      </div>
     </div>
     <script
       language="javascript"
       type="text/javascript"
-      src="index.js"
+      src="shiftPuzzle.js"
     ></script>
   </body>
 </html>
