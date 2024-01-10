@@ -34,8 +34,6 @@
   --clr-dark: #1b1f21;
   --clr-primary: #350035;
   --clr-primary-dark: #b146c2;
-
-
 }
 
 * {
@@ -57,14 +55,15 @@ body {
 }
 
 .container {
-  height: 100%;
-  width: 80%;
+  /* 1140px */
+  max-width: 120rem;
+  padding: 0 3.6rem;
   margin: 0 auto;
 }
 
 .grid {
   display: grid;
-  row-gap: 12.8rem;
+  row-gap: 9.6rem;
   column-gap: 6.4rem;
 }
 
@@ -112,7 +111,6 @@ body {
   font-weight: 500;
   line-height: 1.2;
   color: var(--clr-primary);
-
 }
 
 .heading-tertiary {
@@ -121,7 +119,7 @@ body {
   font-weight: 500;
   text-transform: uppercase;
   color: var(--clr-primary);
-  margin-bottom: 3.2rem;
+  margin-bottom: 2.4rem;
 }
 
 .subheading {
@@ -145,32 +143,9 @@ body {
 }
 
 .flex-col {
-flex-direction: column;
+  flex-direction: column;
 }
 
-.screenshot{
+.screenshot {
   width: 500px;
-}
-
-
-
-/************************/
-/**BELOW 84*16 = 1344px (smaller desktops)**/
-/************************/
-@media (max-width: 84em) {
-
-  }
-  }
-}
-
-@media (max-width: 620px) {
-  /* For a screen < 720px, this CSS will be read */
-
-  }
-}
-
-@media (max-width: 440px) {
-  /* For a screen < 540px, this CSS will be read */
-
-  }
 }

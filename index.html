@@ -19,7 +19,7 @@
 
     <link rel="stylesheet" href="./css/general.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/mediaQuery.css" />
+    <link rel="stylesheet" href="./css/queries.css" />
   </head>
 
   <body>
@@ -66,11 +66,12 @@
         <h2 class="heading-secondary">My Projects and Skills...</h2>
       </div>
 
-      <div class="container grid grid--2-cols grid--x--center">
+      <div class="container grid grid--2-cols">
         <!--------------------->
         <!--- SHIFT PUZZLE ---->
         <!--------------------->
-        <div>
+
+        <div class="project-box">
           <h3 class="heading-tertiary">Shift-Puzzle</h3>
           <p class="project-description">
             Who doesn't recall it from their childhood: a petite plastic card
@@ -84,7 +85,7 @@
           </p>
         </div>
 
-        <div class="flex-center">
+        <div class="project-preview flex-center">
           <div class="game-field-grid">
             <div id="1" class="game-item">
               <img
@@ -199,7 +200,7 @@
         <!--------------------->
         <!---- TRAVEL LIST ---->
         <!--------------------->
-        <div>
+        <div class="project-preview">
           <a href="https://flokomi-travel-list.netlify.app/" target="_blank"
             ><img
               src="./images/travel_list.jpg"
@@ -208,7 +209,7 @@
           /></a>
         </div>
 
-        <div>
+        <div class="project-box">
           <h3 class="heading-tertiary">Travel List</h3>
           <p class="project-description">
             Presenting a charming and user-friendly list app to ensure you never
@@ -227,7 +228,7 @@
         <!----- OMNIFOOD ------>
         <!--------------------->
 
-        <div>
+        <div class="project-box">
           <h3 class="heading-tertiary">Omnifood</h3>
           <p class="project-description">
             Omnifood is a fictional website designed for food delivery, offering
@@ -242,19 +243,20 @@
           </p>
         </div>
 
-        <div class="grid--y--right">
+        <div class="project-preview grid--y--right">
           <a href="https://flokomi-omnifood.netlify.app/" target="_blank"
             ><img
               src="./images/omnifood.jpg"
               alt="Screenshot App Omnifood"
               class="screenshot"
+              class="grid--x--center"
           /></a>
         </div>
         <!--------------------->
         <!--EXPENSE SPLITTER--->
         <!--------------------->
 
-        <div>
+        <div class="project-preview">
           <a
             href="https://flokomi-expense-splitter.netlify.app/"
             target="_blank"
@@ -264,7 +266,8 @@
               class="screenshot"
           /></a>
         </div>
-        <div>
+
+        <div class="project-box">
           <h3 class="heading-tertiary">Expense Splitter</h3>
           <p class="project-description">
             You and your friends decide to throw a party, and of course,
