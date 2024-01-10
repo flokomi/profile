@@ -31,11 +31,12 @@
 .bio {
   margin-bottom: 9.6rem;
 
-  display: flex;
+  /* display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 50px; */
+  /* border-left: 5px solid #350035; */
   gap: 50px;
-  border-left: 5px solid #350035;
 }
 
 .profile-picture {
@@ -47,7 +48,8 @@
 .profile-text {
   font-size: 1.8rem;
   line-height: 1.6;
-  width: 50%;
+  /* width: 50%; */
+  align-self: center;
 }
 
 .projects {
