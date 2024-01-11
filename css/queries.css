@@ -121,7 +121,7 @@
 
   .project-preview {
     margin-bottom: 4.8rem;
-
+  }
   .game-item > img {
     width: 75px;
     height: 75px;
@@ -149,7 +149,7 @@
   }
 
   .screenshot {
-    width: 350px;
+    width: 300px;
   }
 }
 
@@ -158,11 +158,11 @@
 /************************/
 @media (max-width: 26.5em) {
   .game-item > img {
-    width: 65px;
-    height: 65px;
+    width: 60px;
+    height: 60px;
   }
 
   .screenshot {
-    width: 280px;
+    width: 270px;
   }
 }
