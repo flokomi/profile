@@ -32,9 +32,16 @@
   .grid {
     column-gap: 4.8rem;
   }
+
   .profile-picture {
     height: 300px;
   }
+
+  .game-item > img {
+    width: 75px;
+    height: 75px;
+  }
+
   .screenshot {
     width: 400px;
   }
@@ -68,6 +75,15 @@
     font-size: 1.6rem !important;
   }
 
+  .game-item > img {
+    width: 65px;
+    height: 65px;
+  }
+
+  .profile-picture {
+    height: 250px;
+  }
+
   .screenshot {
     width: 300px;
   }
@@ -77,14 +93,22 @@
 /**BELOW 44.5*16 = 712px (smaller tablets)**/
 /************************/
 @media (max-width: 44.5em) {
+  .game-item > img {
+    width: 60px;
+    height: 60px;
+  }
 }
 
 /************************/
 /**BELOW 35*16 = 560px (Phones)**/
 /************************/
 @media (max-width: 35em) {
+  .heading-primary {
+    line-height: 1.1;
+  }
+
   .profile-title {
-    padding: 9.6rem 0 9.6rem 0;
+    padding: 6.4rem 0 6.4rem 0;
   }
 
   .grid--2-cols,
@@ -106,6 +130,17 @@
   }
   .project-preview:nth-child(7) {
     grid-row: 8 / 9;
+  }
+
+  .profile-picture {
+    height: 250px;
+  }
+
+  @media (max-width: 44.5em) {
+    .game-item > img {
+      width: 80px;
+      height: 80px;
+    }
   }
 
   .screenshot {
