@@ -97,19 +97,6 @@
     width: 60px;
     height: 60px;
   }
-}
-
-/************************/
-/**BELOW 35*16 = 560px (Phones)**/
-/************************/
-@media (max-width: 35em) {
-  .heading-primary {
-    line-height: 1.1;
-  }
-
-  .profile-title {
-    padding: 6.4rem 0 6.4rem 0;
-  }
 
   .grid--2-cols,
   .grid--3-cols,
@@ -132,18 +119,50 @@
     grid-row: 8 / 9;
   }
 
+  .project-preview {
+    margin-bottom: 4.8rem;
+
+  .game-item > img {
+    width: 75px;
+    height: 75px;
+  }
+
+  .screenshot {
+    width: 350px;
+  }
+}
+
+/************************/
+/**BELOW 35*16 = 560px (Phones)**/
+/************************/
+@media (max-width: 35em) {
+  .heading-primary {
+    line-height: 1.1;
+  }
+
+  .profile-title {
+    padding: 6.4rem 0 6.4rem 0;
+  }
+
   .profile-picture {
     height: 250px;
   }
 
-  @media (max-width: 44.5em) {
-    .game-item > img {
-      width: 80px;
-      height: 80px;
-    }
+  .screenshot {
+    width: 350px;
+  }
+}
+
+/************************/
+/**BELOW 26,5*16 = 424px (small Phones)**/
+/************************/
+@media (max-width: 26.5em) {
+  .game-item > img {
+    width: 65px;
+    height: 65px;
   }
 
   .screenshot {
-    width: 400px;
+    width: 280px;
   }
 }
